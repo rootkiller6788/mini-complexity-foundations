@@ -1,0 +1,62 @@
+{"event": "start", "name": "mini-time-hierarchy-theorem", "time": 1781516361.3136346}
+{"event": "round_start", "round": 1, "before": 3098, "time": 1781516361.3169453}
+{"event": "round_end", "round": 2, "after": 3098, "delta": 0, "exit": 0, "time": 1781516370.7967708}
+{"event": "done", "lines": 3098, "readme": false, "time": 1781516370.8037107}
+Here is the content of **`F:/nano-everything/mini-theory-of-computation/SKILL.md`** — the GOLD SKILL specification for the mini-theory-of-computation project:
+
+---
+
+## Summary of SKILL.md
+
+This is the master standard document for building **mini-theory-of-computation** — a collection of self-contained mini-modules covering computation/complexity theory. Key sections:
+
+### §0 — Dual Standard Principle
+Every sub-module must meet **two independent conditions**:
+- **Entry condition**: Each `mini-xxx/` sub-module must have ≥ **3,000 lines** of code (`include/` + `src/`), excluding `.lean`, tests, and examples.
+- **Completion condition**: Nine knowledge levels L1-L6 **Complete** + L7-L9 **Partial+**.
+
+### §1-2 — Nine-Level Knowledge System (L1→L9)
+| Level | Name |
+|-------|------|
+| L1 | Definitions |
+| L2 | Core Concepts |
+| L3 | Mathematical Structures |
+| L4 | Fundamental Laws (theorems) |
+| L5 | Algorithms/Methods |
+| L6 | Canonical Problems |
+| L7 | Applications |
+| L8 | Advanced Topics |
+| L9 | Research Frontiers |
+
+### §3 — Nine-School Curriculum Benchmarking
+Aligns with courses from **MIT, Stanford, Berkeley, CMU, Princeton, Caltech, Cambridge, Oxford, ETH**.
+
+### §4 — Forbidden Behaviors
+- Code quality violations (stubs, no implementations, skipped edge cases, etc.)
+- **Anti-Filler Iron Law** — prohibits bulk-generating function stubs to pad line counts
+- Lean 4 formalization rules (no `sorry`, no `by trivial`, no cross-file copy-paste)
+
+### §5-6 — Mandatory Artifacts & Completion Criteria
+Each sub-module must produce: `Makefile`, `README.md`, `include/`, `src/`, `tests/`, `examples/`, `demos/`, `benches/`, `docs/` with 5 knowledge documents.
+
+### §7 — Directory Structure
+```
+0. mini-complexity-foundations/   (cook-levin, P-NP, time-hierarchy, space-hierarchy, etc.)
+1. mini-circuit-complexity/       (boolean-circuits, ac0-nc, switching-lemma, etc.)
+2. mini-algorithmic-complexity/   (future: PCP, IP=PSPACE, fine-grained, etc.)
+```
+
+### §8-9 — Audit Process & Self-Check
+A Python-based `deep_audit.py` script template for automated scoring. Maximum score = 18 (2 pts per level × 9). COMPLETE requires ≥16/18.
+
+### §10 — Safety Review
+Grep-based scans for filler patterns, stubs, empty files, and knowledge document completeness. **Zero tolerance** for filler code.
+
+### §11 — Reference Textbooks
+Arora & Barak, Sipser, Goldreich, Papadimitriou, Moore & Mertens, Vollmer, Jukna, O'Donnell, Vazirani, Nielsen & Chuang, and others.
+
+---
+
+The file serves as the **gold standard** — any sub-module must pass all audits before being declared `COMPLETE`.
+{"event": "round_end", "round": 1, "after": 3098, "delta": 0, "exit": 0, "time": 1781516380.0003471}
+{"event": "round_start", "round": 2, "before": 3098, "time": 1781516380.0063565}

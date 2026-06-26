@@ -1,0 +1,6 @@
+{"event": "start", "name": "mini-polynomial-hierarchy", "time": 1781515729.763375}
+{"event": "round_start", "round": 1, "before": 2630, "time": 1781515729.7653403}
+{"event": "round_end", "round": 1, "after": 2630, "delta": 0, "exit": 0, "time": 1781515745.7632568}
+{"event": "round_start", "round": 2, "before": 2630, "time": 1781515745.764703}
+{"event": "round_end", "round": 2, "after": 2895, "delta": 265, "exit": 0, "time": 1781515761.4972024}
+{"event": "done", "lines": 2895, "readme": false, "time": 1781515761.4988346}
